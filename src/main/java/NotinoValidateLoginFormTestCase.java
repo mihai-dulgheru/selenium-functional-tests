@@ -31,13 +31,13 @@ public class NotinoValidateLoginFormTestCase {
         Thread.sleep(WebDriverConstants.MILLIS);
         driver.findElement(By.id("Email")).clear();
         Thread.sleep(WebDriverConstants.MILLIS);
-        driver.findElement(By.id("Email")).sendKeys("dggghtrh");
+        driver.findElement(By.id("Email")).sendKeys("someone");
         Thread.sleep(WebDriverConstants.MILLIS);
         driver.findElement(By.id("Password")).click();
         Thread.sleep(WebDriverConstants.MILLIS);
         driver.findElement(By.id("Password")).clear();
         Thread.sleep(WebDriverConstants.MILLIS);
-        driver.findElement(By.id("Password")).sendKeys("wergtg");
+        driver.findElement(By.id("Password")).sendKeys("password");
         Thread.sleep(WebDriverConstants.MILLIS);
         driver.findElement(By.name("button")).click();
         Thread.sleep(WebDriverConstants.MILLIS);
@@ -51,7 +51,7 @@ public class NotinoValidateLoginFormTestCase {
         Thread.sleep(WebDriverConstants.MILLIS);
         driver.findElement(By.id("Email")).clear();
         Thread.sleep(WebDriverConstants.MILLIS);
-        driver.findElement(By.id("Email")).sendKeys("ioana@gmail.com");
+        driver.findElement(By.id("Email")).sendKeys("someone@example.com");
         Thread.sleep(WebDriverConstants.MILLIS);
         driver.findElement(By.id("col-content")).click();
         Thread.sleep(WebDriverConstants.MILLIS);
@@ -59,7 +59,7 @@ public class NotinoValidateLoginFormTestCase {
         Thread.sleep(WebDriverConstants.MILLIS);
         driver.findElement(By.id("Password")).clear();
         Thread.sleep(WebDriverConstants.MILLIS);
-        driver.findElement(By.id("Password")).sendKeys("AnimalDragut!3");
+        driver.findElement(By.id("Password")).sendKeys("password");
         Thread.sleep(WebDriverConstants.MILLIS);
         driver.findElement(By.name("button")).click();
         Thread.sleep(WebDriverConstants.MILLIS);
@@ -71,13 +71,13 @@ public class NotinoValidateLoginFormTestCase {
         Thread.sleep(WebDriverConstants.MILLIS);
         driver.findElement(By.id("Email")).clear();
         Thread.sleep(WebDriverConstants.MILLIS);
-        driver.findElement(By.id("Email")).sendKeys("ioanakolceag1101@gmail.com");
+        driver.findElement(By.id("Email")).sendKeys("someone@example.com");
         Thread.sleep(WebDriverConstants.MILLIS);
         driver.findElement(By.id("Password")).click();
         Thread.sleep(WebDriverConstants.MILLIS);
         driver.findElement(By.id("Password")).clear();
         Thread.sleep(WebDriverConstants.MILLIS);
-        driver.findElement(By.id("Password")).sendKeys("animaldraut");
+        driver.findElement(By.id("Password")).sendKeys("password");
         Thread.sleep(WebDriverConstants.MILLIS);
         driver.findElement(By.name("button")).click();
         Thread.sleep(WebDriverConstants.MILLIS);
@@ -91,7 +91,7 @@ public class NotinoValidateLoginFormTestCase {
         Thread.sleep(WebDriverConstants.MILLIS);
         driver.findElement(By.id("Password")).clear();
         Thread.sleep(WebDriverConstants.MILLIS);
-        driver.findElement(By.id("Password")).sendKeys("animaldragut");
+        driver.findElement(By.id("Password")).sendKeys("password");
         Thread.sleep(WebDriverConstants.MILLIS);
         driver.findElement(By.name("button")).click();
         Thread.sleep(WebDriverConstants.MILLIS);
@@ -99,7 +99,7 @@ public class NotinoValidateLoginFormTestCase {
         Thread.sleep(WebDriverConstants.MILLIS);
         driver.findElement(By.id("Email")).clear();
         Thread.sleep(WebDriverConstants.MILLIS);
-        driver.findElement(By.id("Email")).sendKeys("ioanakolceag1101@gmail.com");
+        driver.findElement(By.id("Email")).sendKeys("someone@example.com");
         Thread.sleep(WebDriverConstants.MILLIS);
         driver.findElement(By.id("Password")).click();
         Thread.sleep(WebDriverConstants.MILLIS);
